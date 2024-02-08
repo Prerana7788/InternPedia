@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 1550px;
+            width: 1200px;
+            border: 1px solid;
+            margin: auto;
+        }
+        #class{
+            height: 100px;
+            width: 1200px;
+            /* border: 1px solid; */
+            background-color: black;
+        }
+        #class2{
+            height: 500px;
+            width: 1200px;
+            /* border: 1px solid; */
+        }
+        #class3{
+            height: 200px;
+            width: 1200px;
+            /* border: 1px solid; */
+        }
+        .but{
+            padding: 15px;
+            margin-top: 25px;
+            /* margin-right: 100px; */
+            margin-left: 30px;
+            background-color: black;
+            color: aliceblue;
+        }
+        #newlook{
+            height: 80px;
+            width: 170px;
+            /* border: 1px solid; */
+            margin-left: 1000px;
+            margin-top: -65px;
+            background-image: url(./new.png);
+            background-position: center;
+            background-size: cover;
+         }
+         #cls{
+            height: 500px;
+            width: 700px;
+            /* border: 1px solid; */
+            background-image: url(./personal-styling.jpg);
+        
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-clip: border-box;
+            margin-left: 499px;
+         }
+         #cla{
+            height: 500px;
+            width: 499px;
+            /* border: 1px solid; */
+            margin-top: -502px;;
+        }
+        h1{
+            font-size: xx-large;
+            margin: auto;
+            
+        }
+        h2{
+            margin: auto;
+        }
+        #h{
+            height: 200px;
+            width: 200px;
+            /* border: 1px solid; */
+            margin: auto;
+            margin-top: 100px;
+        }
+        #sn{
+            height: 50px;
+            width: 200px;
+            /* border: 1px solid; */
+            margin-top: 20px;
+            background-color: black;
+            color: aliceblue;
+        }
+        span{
+            margin-left: 100px;
+        }
+        #k1{
+            height: 200px;
+            width: 400px;
+            border: 1px solid rgb(121, 52, 3);
+            background-color: rgb(121, 52, 3);
+            
+        }
+        #k2{
+            height: 200px;
+            width: 398px;
+            border: 1px solid rgb(121, 52, 3);
+            margin: auto;
+            margin-top: -202px;
+            background-color: rgb(121, 52, 3);
+        
+        }
+        #k3{
+            height: 199px;
+            width: 399px;
+            border: 1px solid rgb(121, 52, 3);
+            margin-left: auto;
+            margin-top: -201px;
+            background-color: rgb(121, 52, 3);
+            
+        }
+        #shopping{
+            height: 131px;
+            width: 130px;
+            /* border: 1px solid; */
+            margin-top: 30px;
+            margin-left: 20px;
+            background-image: url(./spppppp.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+           
+            
+        }
+        #sp{
+            height: 130px;
+            width: 200px;
+            /* border: 1px solid; */
+            margin-left: 155px;
+            margin-top: -132px;
+            background-color: rgb(121, 52, 3);
+            color: aliceblue;
+            
+        }
+        #pricematching{
+            height: 130px;
+            width: 130px;
+            /* border: 1px solid; */
+            margin-top: 30px;
+            margin-left: 20px;
+            background-image: url(./brown\ icons.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #pm{
+            height: 130px;
+            width: 200px;
+            /* border: 1px solid; */
+            margin-left: 155px;
+            margin-top: -132px;
+            background-color: rgb(121, 52, 3);
+            color: aliceblue;
+        }
+        #spu{
+            height: 130px;
+            width: 130px;
+            /* border: 1px solid; */
+            margin-top: 30px;
+            margin-left: 20px;
+            background-image: url(./store.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #spuu{
+            height: 130px;
+            width: 200px;
+            /* border: 1px solid; */
+            margin-left: 155px;
+            margin-top: -132px;
+            background-color: rgb(121, 52, 3);
+            color: aliceblue;
+            
+        }
+        #ctop{
+            height: 500px;
+            width: 1200px;
+            border: 1px solid ;
+            margin-top: 10px;
+            background-color: rgb(121, 52, 3);
+        }
+        #c{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: x-large;
+            color: aliceblue;
+            
+        }
+        #c1{
+            height: 400px;
+            width: 550px;
+            border: 1px solid aliceblue;
+            margin-left: 30px;
+            background-color: aliceblue;
+        }
+        #c2{
+            height: 400px;
+            width: 550px;
+            border: 1px solid aliceblue;
+           margin-left: 610px;
+           margin-top: -401px;
+           background-color: aliceblue;
+        }
+        #lj{
+            height: 350px;
+            width: 250px;
+            /* border: 1px solid; */
+            margin-top: 25px;
+            margin-left: 20px;
+            background-image: url(./01_Navy_Suit2_2023_5247_JacketCrop.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        #lw{
+            height: 350px;
+            width: 200px;
+            /* border: 1px solid; */
+            margin-left: 300px;
+            margin-top: -352px;
+        }
+        #lwt{
+            height: 350px;
+            width: 250px;
+            /* border: 1px solid; */
+            margin-top: 25px;
+            margin-left: 20px;
+            background-image: url(./product-500x500.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        #lww{
+            height: 350px;
+            width: 200px;
+            /* border: 1px solid; */
+            margin-left: 300px;
+            margin-top: -352px;
+        }
+        #footer{
+            height: 239px;
+            width: 1200px;
+            border: 1px solid;
+            background-color: black;
+        }
+        #inst{
+            height: 45px;
+            width: 45px;
+            border: 1px solid;
+            margin-left: 40px;
+            margin-top: 10px;
+            background-image: url(./insta.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+         
+        }
+        #face{
+            height: 45px;
+            width: 45px;
+            border: 1px solid;
+            margin-left: 100px;
+            margin-top: -47px;
+            background-image: url(./facebook.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #twi{
+            height: 45px;
+            width: 45px;
+            border: 1px solid;
+            margin-left: 170px;
+            margin-top: -46px;
+            background-image: url(twitter.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #home{
+            height: 120px;
+            width: 600px;
+            border: 1px solid;
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+        #HAJ{
+            height: 135px;
+            width: 150px;
+            border: 1px solid;
+        }
+        #HAJ2{
+            height: 135px;
+            width: 170px;
+            border: 1px solid;
+            margin-left: 200px;
+            margin-top: -137px;
+        }
+        #HAJ3{
+            height: 135px;
+            width: 170px;
+            border: 1px solid;
+            margin-left: 420px;
+            margin-top: -138px;
+            text-decoration: none;
+        }
+        #link{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        #store{
+            height: 170px;
+            width: 500px;
+            border: 1px solid black;
+            margin-left: 650px;
+            margin-top: -170px;
+            color: aliceblue;
+        }
+        #st{
+            height: 148px;
+            width: 170px;
+            border: 1px solid black;
+            color: aliceblue;
+        }
+        #sto{
+            height: 148px;
+            width: 180px;
+            border: 1px solid black;
+            margin-left: 200px;
+            margin-top: -150px;
+            color: aliceblue;
+        }    
+
+
+    </style>
+</head>
+<body>
+    <div id="parent">  
+        <div id="class">
+            <button class="but">MENSWEAR</button>
+            <button class="but">FOOTWEAR</button>
+            <button class="but">ACCESSORIES</button>
+            <button class="but">CLEARANCE</button>
+            <div id="newlook"></div>
+        </div>
+        <div id="class2">
+            <div id="cls"></div>
+            <div id="cla">
+               <div id="h"> <h1>50% OFF</h1>
+                <h2>MEN'S FALL
+                    <br>
+                    COLLECTION
+                </h2>
+                <button id="sn">SHOP NOW</button>
+                
+            </div>
+            <span>Sale ends February 21,2024 at 11:59 PM PDT</span>
+            </div>
+        </div>
+        <div id="class3">
+            <div id="k1">
+                <div id="shopping"></div>
+                <div id="sp"><b>FREE SHIPPING</b>
+                    <br><P>When you spend $50.00 minimum before taxes on all online orders.</P></div>
+            </div>
+            <div id="k2">
+                <div id="pricematching"></div>
+                <div id="pm"><b>PRICE MATCHING</b><P>Present a qualifying copetitor's ad and we'll gladly price match!</P></div>
+            </div>
+            <div id="k3">
+                <div id="spu"></div>
+                <div id="spuu"><b>STORE PICK UP</b><P>Buy online, and then pick up your order in store or curbside.</P>
+                </div>
+            </div>
+        </div>
+        <div id="ctop">
+             <p id="c">customer top picks</p>
+             <div id="c1">
+                 <div id="lj"></div> 
+                 <div id="lw"><P>NEW LOOK CLASSIC SIGNATURE MEN'S SUIT</P>
+                <p>"with the custom fitting found a suit that fits comfortably! Great material too!"</p>
+                   <p><b>Raj Kapoor, Bangalore</b></p></div>
+             </div>
+             <div id="c2">
+                <div id="lwt"></div>
+                <div id="lww"><p>NEW LOOK MEN'S LUX LEATHER WATCH</p>
+                <p>"I bought this as a gift for my Brother and he loved it!! can be worn for different pccasions!"</p>
+                <p><b>Rakhi Patil, Maharashtra</b></p></div>
+             </div>
+        </div>
+        <div id="footer">
+           <div id="inst"> </div>
+           <div id="face"> </div>
+           <div id="twi"> </div>
+           <div id="home">
+              <div id="HAJ">
+               <a href="" id="link">Home</a><br><br>
+               <a href="" id="link">About Us</a><br><br>
+               <a href="" id="link">Join Our Team</a>
+              
+              </div>
+              <div id="HAJ2">
+                <a href="" id="link">Customer Service</a><br><br>
+                <a href="" id="link">Gift Cards/ Balance</a><br><br>
+                <a href="" id="link">Contact Us</a>
+              </div>
+              <div id="HAJ3">
+                <a href="" id="link">Email Sign Up</a><br><br>
+                <a href="" id="link">Order Tracking</a><br><br>
+                <a href="" id="link">Return Policy</a>
+              </div>
+
+           </div> 
+           <div id="store">
+             <h2>STORE LOCATIONS</h2>
+             <div id="st" > <p> Fergusson College Rd,<br>Pune, Maharashtra <br>(915)768-000 <br>India </p></div>
+             <div id="sto" > <p>2659 Pike street <br>San Diego,CA 92103 <br>(858)610-2828 <br>California</p></div>
+           </div> 
+
+        </div>
+    </div>
+</body>
+</html>
