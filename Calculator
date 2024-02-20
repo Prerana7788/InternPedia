@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    form{
+        height: 320px;
+        width: 230px;
+        border: 1px solid black;
+        margin: 0 auto;
+        margin-top: 100px;
+        border-radius: 5px;
+        box-shadow: 2px 3px gray;
+        background-color: rgb(49, 42, 42);
+        
+         }
+       #a{
+        height: 43px;
+        width: 43px;
+        border: 1px solid;
+        margin: 0 auto;
+        margin-left: 8.5px;
+        margin-top: 4.5px;
+        border-radius: 4px;
+        background-color: rgb(217, 207, 207);
+        box-shadow: 2px 2px 2px ;
+        
+        }
+
+        #o{
+         height: 43px;
+        width: 100px;
+        border: 1px solid;
+        margin: 0 auto;
+        margin-left: 7px;
+        margin-top: 4.5px;
+        border-radius: 4px;
+        background-color: rgb(217, 207, 207);
+        box-shadow: 2px 2px 2px ;
+        }
+
+      
+       #x{
+        height: 35px;
+        width: 205px;
+        margin-left: 7.5px;
+        /* margin-top: 5px; */
+        margin-bottom: 3px;
+        border-radius: 7px;
+       }
+
+    </style>
+</head>
+<body >
+    
+    <form action="" name="cal" class="calk">
+        
+        <br>
+        <input type="text" name="evalresult" id="x" >
+
+        <input type="button" name="btnc" value="AC" id="a" onclick="clearS()" >
+        <input type="button" name="btndi" value="/" id="a" onclick="valuecal(btndi.value)">
+        <input type="button" name="btnd" value="%" id="a" onclick="valuecal(btnd.value)">
+        <input type="button" name="btnadd" value="+" id="a" onclick="valuecal(btnadd.value)">
+
+        <input type="button" name="btn1" value="1" id="a" onclick="valuecal(btn1.value)">
+        <input type="button" name="btn2" value="2" id="a" onclick="valuecal(btn2.value)">
+        <input type="button" name="btn3" value="3" id="a" onclick="valuecal(btn3.value)">
+        <input type="button" name="btnsub" value="-" id="a" onclick="valuecal(btnsub.value)">
+
+        <input type="button" name="btn4" value="4" id="a" onclick="valuecal(btn4.value)">
+        <input type="button" name="btn5" value="5" id="a" onclick="valuecal(btn5.value)">
+        <input type="button" name="btn6" value="6" id="a" onclick="valuecal(btn6.value)">
+        <input type="button" name="btnmul" value="*" id="a" onclick="valuecal(btnmul.value)">
+
+        <input type="button" name="btn7" value="7" id="a" onclick="valuecal(btn7.value)">
+        <input type="button" name="btn8" value="8" id="a" onclick="valuecal(btn8.value)">
+        <input type="button" name="btn9" value="9" id="a" onclick="valuecal(btn9.value)">
+        <input type="button" name="btno" value="." id="a" onclick="valuecal('.')">
+        
+        <input type="button" name="btn0" value="0" id="a" onclick="valuecal(btn0.value)">
+        <input type="button" name="btnp" value="00" id="a" onclick="valuecal(btnp.value)">
+
+        <input type="button" name="result" value="=" id="o" onclick="evalresult.value=eval(evalresult.value)">
+        
+    </form>
+    <script>
+        function valuecal(result) {
+            cal.evalresult.value=cal.evalresult.value + result;
+            
+        }
+        function clearS() {
+            document.getElementById("x").value= "";
+            
+        }
+        function calk() {
+            var p= document.getElementById("x").value;
+            var q= eval(p)
+            document.getElementById("x").value = q;
+            
+        }
+       </script>
+    </body>
+
+</body>
+</html>
